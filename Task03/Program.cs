@@ -2,39 +2,39 @@
 Console.WriteLine("Введите число : ");
 int day = Convert.ToInt32(Console.ReadLine());
 
-if (day > 0 && day < 8 )
+if (day > 0 && day < 8)
 {
     if (day == 1)
     {
         Console.WriteLine("Понедельник");
     }
-     if (day == 2)
+    if (day == 2)
     {
         Console.WriteLine("Вторник");
     }
-     if (day == 3)
+    if (day == 3)
     {
         Console.WriteLine("Среда");
     }
-     if (day == 4)
+    if (day == 4)
     {
         Console.WriteLine("Четверг");
     }
-     if (day == 5)
+    if (day == 5)
     {
         Console.WriteLine("Пятница");
     }
-     if (day == 6)
+    if (day == 6)
     {
         Console.WriteLine("Суббота");
     }
-     if (day == 7)
+    if (day == 7)
     {
         Console.WriteLine("Воскресенье");
     }
 }
 else
 {
-     
-        Console.WriteLine("Заданное число не соответствует дню недели");
+
+    Console.WriteLine("Заданное число не соответствует дню недели");
 }
