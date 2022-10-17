@@ -10,12 +10,11 @@ if (number > 0)
         if (even == 0)
         {
             Console.Write($"{count} ");
-            count++;
+        
         }
-        else
-        {
-            count++;
-        }
+                
+        count++;
+        
     }
 
 }
