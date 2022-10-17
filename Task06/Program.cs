@@ -5,9 +5,9 @@ int even = number % 2;
 
 if (even == 0)
 {
-    Console.Write($"{number} - четное ");
+    Console.Write($"Является четным ");
 }
 else
 {
-    Console.Write($"{number} - нечетное ");
+    Console.Write($"Является нечетным ");
 }
