@@ -19,5 +19,5 @@ if ( numberC > max)
 }
 else
 {
-    Console.Write($"max = {numberA} ");
+    Console.Write($"max = {max} ");
 }
