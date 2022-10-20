@@ -15,7 +15,7 @@ int Querter(int xc, int yc)
 }
 
 int querter = Querter(x, y);
-string result = querter > 0 
-                 ? $"Указанные координаты соответствуют четверти -> {querter}" 
-                 : "Введены не корректные координаты";
+string result = querter > 0 //if
+                 ? $"Указанные координаты соответствуют четверти -> {querter}" //? - тогда;
+                 : "Введены не корректные координаты";//: - иначе
 Console.WriteLine(result);
