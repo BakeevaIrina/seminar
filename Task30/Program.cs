@@ -8,9 +8,10 @@ int num = Convert.ToInt32(Console.ReadLine());
 int[] NameArray(int number)
 {
     int[] array = new int[number];
+    Random rnd = new Random();
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(0,2);
+        array[i] = rnd.Next(0,2);
     }
     return array;
 }
