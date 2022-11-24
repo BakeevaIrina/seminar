@@ -14,14 +14,12 @@ int[] CreateArrayRndInt(int size, int min, int max)
     return array;
 }
 
-int[] InversionArray(int[]array)
+void InversionArray(int[]arr)
 {
-    int[] newArray = new int[array.Length];
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
-        newArray[i] = array[i] * -1;
+        arr[i] *= -1;
     }
-    return newArray;
 }
 
 void PrintArray (int[] array)//void тип данных, который не возвращает значения
@@ -35,7 +33,7 @@ void PrintArray (int[] array)//void тип данных, который не в�
     Console.WriteLine("]");
 }
 
-int[] arr = CreateArrayRndInt(4, -10, 10);
-int[] inversionArray = InversionArray(arr);
-PrintArray(arr);
-PrintArray(inversionArray);
+int[] array = CreateArrayRndInt(4, -10, 10);
+PrintArray(array);
+InversionArray(array);
+PrintArray(array);
